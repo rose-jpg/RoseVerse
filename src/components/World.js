@@ -47,12 +47,12 @@ function World() {
                 <img src={people03} className='w-full h-full' alt="" />
 
             </div>
-            <div className="absolute top-[45%] left-[15%] w-[200px] h-[150px] p-[6px] rounded-[24px] bg-[#5d6680]">
-                <img src={upside} className='w-full h-full rounded-[24px]' alt="" />
+            <div className="absolute top-[35%] left-[15%] sm:w-[200px] sm:h-[150px] w-[100px] h-[50px] p-[6px] sm:rounded-[24px] bg-[#5d6680]">
+                <img src={upside} className='w-full h-full sm:rounded-[24px]' alt="" />
 
             </div>
-            <div className="absolute top-[15%] right-[15%] w-[200px] h-[150px] p-[6px] rounded-[24px] bg-[#5d6680]">
-                <img src={lab} className='w-full h-full rounded-[24px]' alt="" />
+            <div className="absolute top-[15%] right-[15%] sm:w-[200px] sm:h-[150px] w-[100px] h-[50px] p-[6px] sm:rounded-[24px]] bg-[#5d6680]">
+                <img src={lab} className='w-full h-full sm:rounded-[24px]' alt="" />
 
             </div>
          

@@ -7,6 +7,7 @@ import World from "./components/World"
 
 import GetStarted from "./components/GetStarted"
 import WNew from "./components/WNew"
+import Insight from "./components/Insight"
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <GetStarted/>
       <WNew/>
       <World/>
+      <Insight/>
  
     
     </div>

@@ -41,10 +41,11 @@ function WNew() {
         </motion.div>
         <motion.div variants={planetVariants("right")} className=' flex flex-1'>
           <img
-            className='w-[90% h-[90%] object-contain'
+            className='w-[90% h-[90%] object-contain relative'
             src={whatsnew}
             alt=''
           />
+            <div className='gradient-01 absolute w-[80%] inset-0 z-[-10]' />
         </motion.div>
       </motion.div>
     </div>
