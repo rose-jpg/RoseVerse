@@ -2,7 +2,7 @@ import { motion } from "framer-motion"
 import { textContainer, textVariant2 } from "../data/motion"
 
 export const TypingText = ({title}) => (
-  <motion.p className="text-[20px]"
+  <motion.p className="sm:text-[20px] text-[12px]"
    variants={textContainer}
    initial='hidden'
    whileInView='show'
@@ -17,6 +17,6 @@ export const TypingText = ({title}) => (
 )
 
 export const TitleText = ({title}) =>(
-  <motion.h2 className=" text-[64px] font-bold mt-[8px] leading-[60px]"
+  <motion.h2 className=" sm:text-[64px] text-[30px] font-bold mt-[8px] sm:leading-[60px] leading-[47px]"
   variants={textVariant2}>{title}</motion.h2>
 )

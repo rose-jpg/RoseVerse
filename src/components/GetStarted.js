@@ -13,7 +13,7 @@ function GetStarted() {
         initial='hidden'
         whileInView='show'
         viewport={{ once: false, amount: 0.25 }}
-        className='flex sm:flex-row flex-col-reverse mt-48'
+        className='flex sm:flex-row flex-col-reverse sm:mt-48 mt-10'
       >
         <motion.div variants={planetVariants("left")} className=' flex flex-1'>
           <img
@@ -28,7 +28,7 @@ function GetStarted() {
           className='flex  flex-col flex-1  '
           variants={fadeIn("left", "tween", 0.2, 1)}
         >
-          <TypingText title='|How Metaversus Works' />
+          <TypingText title='| How Metaversus Works' />
 
           <TitleText
             title={

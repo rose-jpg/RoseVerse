@@ -6,7 +6,7 @@ import down from "../assets/down.svg"
 
 function About() {
   return (
-    <div className='px-6 sm:px-48 mb-[100px]'>
+    <div className='px-6 sm:px-48 sm:mb-48 mb-10'>
       <motion.div className="flex flex-col justify-center items-center relative"
         variants={staggerContainer}
         initial='hidden'

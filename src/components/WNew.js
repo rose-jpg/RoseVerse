@@ -14,7 +14,7 @@ function WNew() {
         initial='hidden'
         whileInView='show'
         viewport={{ once: false, amount: 0.25 }}
-        className='flex sm:flex-row flex-col mt-48'
+        className='flex sm:flex-row flex-col sm:mt-48 mt-10'
       >
       
 
@@ -22,13 +22,12 @@ function WNew() {
           className='flex  flex-col  flex-1 '
           variants={fadeIn("left", "tween", 0.2, 1)}
         >
-          <TypingText title="|What's New?" />
+          <TypingText title="| What's New?" />
 
           <TitleText
             title={
               <>
-               What's New about 
-                <br className='hidden sm:block' />Metaversus?
+               What's New about <br className='hidden sm:block' /> Metaversus?
               </>
             }
           />

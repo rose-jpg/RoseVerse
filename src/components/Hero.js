@@ -6,7 +6,7 @@ import stamp from "../assets/stamp.png"
 
 function Hero() {
   return (
-    <div className='px-6 sm:px-48'>
+    <div className='px-6 sm:px-48 sm:mb-48 mb-10'>
       <motion.div
         variants={staggerContainer}
         initial='hidden'
