@@ -16,7 +16,7 @@ function About() {
         <div className='gradient-01 absolute w-[70%] inset-0' />
         <TypingText title='| About Metaversus' />
         <motion.p
-          className='text-center'
+          className='text-center text-[12px] sm:text-[18px]'
           variants={fadeIn("up", "tween", 0.2, 1)}
         >
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia error

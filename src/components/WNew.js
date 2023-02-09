@@ -19,7 +19,7 @@ function WNew() {
       
 
         <motion.div
-          className='flex  flex-col flex-1 '
+          className='flex  flex-col  flex-1 '
           variants={fadeIn("left", "tween", 0.2, 1)}
         >
           <TypingText title="|What's New?" />

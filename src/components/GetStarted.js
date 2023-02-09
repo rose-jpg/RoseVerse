@@ -13,7 +13,7 @@ function GetStarted() {
         initial='hidden'
         whileInView='show'
         viewport={{ once: false, amount: 0.25 }}
-        className='flex sm:flex-row flex-col mt-48'
+        className='flex sm:flex-row flex-col-reverse mt-48'
       >
         <motion.div variants={planetVariants("left")} className=' flex flex-1'>
           <img
@@ -25,7 +25,7 @@ function GetStarted() {
         </motion.div>
 
         <motion.div
-          className='flex  flex-col flex-1 '
+          className='flex  flex-col flex-1  '
           variants={fadeIn("left", "tween", 0.2, 1)}
         >
           <TypingText title='|How Metaversus Works' />
@@ -38,7 +38,7 @@ function GetStarted() {
               </>
             }
           />
-          <div className=' gap-[20px] flex flex-col mt-[30px]'>
+          <div className=' sm:gap-[20px] gap-[10px] flex flex-col mt-[30px] text-[8px]'>
             {startingFeatures.map((feature, index) => {
               return (
                 <StartSteps key={feature} number={index + 1} title={feature} />

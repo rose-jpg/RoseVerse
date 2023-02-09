@@ -16,7 +16,7 @@ function Navbar() {
         <div className='gradient-01 absolute w-[50%] inset-0' />
         <div className="flex justify-between">
           <img src={search} alt='' />
-          <h2 className="uppercase text-[20px] font-medium">Metaverse</h2>
+          <h2 className="uppercase text-[20px] font-medium">Roseverse</h2>
           <img src={menu} alt="" />
         </div>
       </motion.div>
