@@ -20,7 +20,7 @@ function Hero() {
           >
             Roseverse
           </motion.h1>
-          <div className='flex z-10 justify-center sm:mt-0 mt-[-60px] sm:mb-0 mb-[-30px]'>
+          <div className='flex z-10 justify-center sm:mt-0 mt-[-60px] sm:mb-0 mb-[-20px]'>
             <motion.h1
               className='sm:text-[100px] text-[50px] uppercase font-bold leading-[114px] z-10 flex justify-center items-center '
               variants={textVariant(1.2)}
