@@ -14,7 +14,7 @@ function About() {
         viewport={{ once: false, amount: 0.25 }}
       >
         <div className='gradient-01 absolute w-[70%] inset-0' />
-        <TypingText title='| About Metaversus' />
+        <TypingText title='| About Roseversus' />
         <motion.p
           className='text-center text-[12px] sm:text-[18px]'
           variants={fadeIn("up", "tween", 0.2, 1)}
