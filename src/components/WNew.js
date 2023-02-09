@@ -27,7 +27,7 @@ function WNew() {
           <TitleText
             title={
               <>
-               What's New about <br className='hidden sm:block' /> Metaversus?
+               What's New about <br className='hidden sm:block' /> Roseversus?
               </>
             }
           />
